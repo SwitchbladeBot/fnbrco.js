@@ -1,0 +1,34 @@
+{
+  "name": "fnbrco.js",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for the fnbr.co API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SwitchbladeBot/fnbrco.js.git"
+  },
+  "author": "Switchblade Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SwitchbladeBot/fnbrco.js/issues"
+  },
+  "homepage": "https://github.com/SwitchbladeBot/fnbrco.js#readme",
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
