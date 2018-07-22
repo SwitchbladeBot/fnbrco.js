@@ -25,7 +25,7 @@ Docma.create()
     },
     src: [
       { readme: './README.md' },
-      { snekfetch: './index.js' },
+      { fnbrco: './lib/*.js' },
     ],
     dest: './docs',
     template: {
@@ -38,13 +38,13 @@ Docma.create()
           },
           {
             label: 'Documentation',
-            href: '?api=',
+            href: '?api=fnbrco',
             iconClass: 'fas fa-book',
           },
           {
             iconClass: "fab fa-lg fa-github",
             label: "",
-            href: "https://github.com/onury/docma",
+            href: "https://github.com/SwitchbladeBot/fnbrco.js",
             target: "_blank"
           }
         ],

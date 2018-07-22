@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/SwitchbladeBot/fnbrco.js/issues"
   },
-  "homepage": "https://github.com/SwitchbladeBot/fnbrco.js#readme",
+  "homepage": "https://fnbrcojs.switchblade.xyz/",
   "devDependencies": {
     "docma": "^2.1.0",
     "dotenv": "^6.0.0",
