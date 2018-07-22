@@ -12,6 +12,6 @@
   </p>
   
   `npm install fnbrco.js`
-  
+  <br>
   <a href="https://fnbrcojs.switchblade.xyz/?api=fnbrco">Read the docs</a>
 </div>
