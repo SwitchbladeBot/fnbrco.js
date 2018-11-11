@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/SwitchbladeBot/fnbrco.js.svg)](https://greenkeeper.io/)
+
 <div align="center">
   <img src="https://i.switchblade.xyz/fnbrco.png"><br>
   <b>Node.js wrapper for the <a href="https://fnbr.co/api/docs">fnbrco.js API</a></b>
