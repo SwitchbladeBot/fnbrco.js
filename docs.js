@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const Docma = require('docma');
-const Package = require('./package');
+const Docma = require('docma')
+const Package = require('./package')
 
 Docma.create()
   .build({
@@ -10,7 +10,7 @@ Docma.create()
       base: '/',
       entrance: 'content:readme',
       routing: 'query',
-      server: Docma.ServerType.STATIC,
+      server: Docma.ServerType.STATIC
     },
     markdown: {
       gfm: true,
@@ -21,11 +21,11 @@ Docma.create()
       smartLists: false,
       smartypants: false,
       tasks: false,
-      emoji: true,
+      emoji: true
     },
     src: [
       { readme: './README.md' },
-      { fnbrco: './lib/*.js' },
+      { fnbrco: './lib/*.js' }
     ],
     dest: './docs',
     template: {
@@ -34,20 +34,20 @@ Docma.create()
         navItems: [
           {
             label: 'Home',
-            href: '?content=readme',
+            href: '?content=readme'
           },
           {
             label: 'Documentation',
             href: '?api=fnbrco',
-            iconClass: 'fas fa-book',
+            iconClass: 'fas fa-book'
           },
           {
-            iconClass: "fab fa-lg fa-github",
-            label: "",
-            href: "https://github.com/SwitchbladeBot/fnbrco.js",
-            target: "_blank"
+            iconClass: 'fab fa-lg fa-github',
+            label: '',
+            href: 'https://github.com/SwitchbladeBot/fnbrco.js',
+            target: '_blank'
           }
-        ],
-      },
-    },
+        ]
+      }
+    }
   })
